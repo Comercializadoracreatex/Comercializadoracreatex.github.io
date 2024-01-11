@@ -3,14 +3,17 @@ body {
     margin: 0;
     font-family: var(--primary-font);
     margin-bottom: 4rem;
-    
+    max-width: 100%;
+    height: auto;
 
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 770px;
     margin: 0 auto;
     padding: 0 20px;
+    max-width: 100%;
+    height: auto;
 }
 
 .banner {
@@ -18,14 +21,18 @@ body {
     text-align: center;
     border-radius: 0%;
     margin: 0;
+    max-width: 100%;
+    height: auto;
     
 }
 
 .section {
     padding: 50px 0;
+    max-width: 100%;
+    height: auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 329px) {
     body {
         font-family: Arial, sans-serif;
         line-height: 1.6;
@@ -38,11 +45,13 @@ body {
         padding: 36px;
         position: fixed;
         width: 100%;
-        
+        height: auto;
         
     }
 
     nav ul {
+        max-width: 100%;
+    height: auto;
         font-size: 20px;
         list-style-type: none;
         padding: 11px;
@@ -52,6 +61,8 @@ body {
         top: 0;
         width: 100%;
         background-color: #d10303;
+        max-width: 100%;
+        height: auto;
         
     }
 
@@ -60,11 +71,15 @@ body {
         margin-right: 20px;
         margin-left: 0%;
         display: 15px;
+        max-width: 100%;
+        height: auto;
     }
 
     nav ul li a {
         text-decoration: none;
         color: #ffffff;
+        max-width: 100%;
+        height: auto;
     }
 
    
@@ -76,15 +91,17 @@ body {
         background-position: cover;
         background-repeat: no-repeat;
         background-size: 100%;
-        --padding-container: 100px 0;
-        width: 100%;
-        /*clip-path: polygon(50% 0%, 74% 0, 100% 0, 100% 80%, 80% 95%, 50% 100%, 20% 95%, 0 80%, 0 0, 20% 0); */
-
-        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+        
+        
+        
 
     }
     
     .vermas{
+        max-width: 100%;
+        height: auto;
         display: inline-block;
         background-color:#d10303;
         justify-self:center;
@@ -97,6 +114,8 @@ body {
     }
 /* knowledge //////////////////////////////////////////////////////// */
     .knowledge{
+        max-width: 100%;
+        height: auto;
         background-color:rgb(255, 255, 255);
         background-size: 20px 20px;
     background-position: 0 0,10px 10px;
@@ -104,6 +123,8 @@ body {
     }
     
     .knowledge__container{
+        max-width: 100%;
+        height: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1em;
@@ -113,6 +134,8 @@ body {
     
     .knowledge__picture{
         max-width: 550px;
+        max-width: 100%;
+        height: auto;
         margin: 0;
         padding: 0;
         border: 0;
@@ -122,6 +145,8 @@ body {
 }
     
     .knowledge__img{
+        max-width: 100%;
+        height: auto;
         width: 600px;
         display: flex;
         align-items:end;
@@ -130,6 +155,8 @@ body {
     }
     
     .knowledge__paragraph{
+        max-width: 100%;
+        height: auto;
         line-height: 1.7;
         margin-top: 15px;
     }
@@ -139,7 +166,8 @@ body {
 
 
 .numero{
-      
+    max-width: 100%;
+    height: auto;
     background-image: linear-gradient(180deg, #00000049 0%, #0000008c 100%), url(../assets/telas.jpg);
     background-size: cover;
     overflow: hidden;
@@ -148,6 +176,8 @@ body {
 }
 
 .numero_subtitle{
+    max-width: 100%;
+    height: auto;
     color: #e3dbe3;
     line-height: 1.7;
     margin-top: 10px;
@@ -163,7 +193,8 @@ body {
 }
 
 .imgnumero {
-
+    max-width: 100%;
+    height: auto;
     color: #e3dbe3;
 
 }
@@ -173,6 +204,8 @@ body {
 /*conocenos ///////////////////////////////////////////// */
 
 .conocenosboton{
+    max-width: 100%;
+    height: auto;
     display: inline-block;
     background-color: #d10303;
     justify-self:center;
@@ -188,6 +221,8 @@ body {
 
 /* slidee************************************************** */
 .slider-frame {
+    max-width: 100%;
+    height: auto;
 	width: 680px;
     height: 50%;
 	margin:50px auto 0;
@@ -319,6 +354,8 @@ p {
 }
 @media only screen and (min-width:320px) and (max-width:768px){
     .btn-wsp{
+        max-width: 100%;
+    height: auto;
         width:63px;
         height:63px;
         line-height: 66px;
@@ -360,9 +397,9 @@ border-bottom: 50px;
 	list-style-type:none;
 	padding:0px;
 	display:table;
-	margin-top: 10px;
+	margin-top: 5px;
 	margin-right: auto;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	margin-left: auto;
 }
 .foote_bottom_ul_amrc li { display:inline;}
@@ -375,3 +412,29 @@ border-bottom: 50px;
 .social_footer_ul li i {  width:20px; height:20px; text-align:center;}
   
   
+
+
+
+@media screen and (max-width: 770px){
+
+header {
+
+    max-width: 100%;
+    height: auto;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
