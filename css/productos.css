@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: var(--primary-font);
+    margin-bottom: 4rem;
+    
+
+}
+.productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.producto {
+    display: flex;
+    background-color: #f8f8f8;
+    width: 30%;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+}
+
+.precio {
+    color: #b12704;
+    font-weight: bold;
+}
