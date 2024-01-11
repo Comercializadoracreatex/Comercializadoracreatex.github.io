@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 770px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
     max-width: 100%;
@@ -32,19 +32,22 @@ body {
     height: auto;
 }
 
-@media screen and (min-width: 329px) {
+@media screen and (min-width: 768px) {
     body {
         font-family: Arial, sans-serif;
         line-height: 1.6;
         margin: 0;
         padding: 0;
+        max-width: 100%;
+        height: auto;
     }
 
     header {
-        background-color: #d10303;
+        background-color: #ffffff;
         padding: 36px;
         position: fixed;
         width: 100%;
+        max-width: 100%;
         height: auto;
         
     }
@@ -60,7 +63,7 @@ body {
         position: absolute;
         top: 0;
         width: 100%;
-        background-color: #d10303;
+        background-color: #ffffff;
         max-width: 100%;
         height: auto;
         
@@ -77,7 +80,7 @@ body {
 
     nav ul li a {
         text-decoration: none;
-        color: #ffffff;
+        color: #000000;
         max-width: 100%;
         height: auto;
     }
@@ -364,6 +367,28 @@ p {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /*footer*/
 
 
@@ -412,28 +437,6 @@ border-bottom: 50px;
 .social_footer_ul li i {  width:20px; height:20px; text-align:center;}
   
   
-
-
-
-@media screen and (max-width: 770px){
-
-header {
-
-    max-width: 100%;
-    height: auto;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
