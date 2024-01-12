@@ -17,12 +17,13 @@ body {
 }
 
 .banner {
-    padding: 270px 0;
+    padding: 50%;
     text-align: center;
     border-radius: 0%;
     margin: 0;
     max-width: 100%;
     height: auto;
+    border-bottom: 0;
     
 }
 
@@ -197,12 +198,12 @@ body {
     .banner {
       
         color: #fff;
-        background-color: #000000;
-        background-image: linear-gradient(180deg, #00000049 0%, #0000008c 100%), url(../assets/fondoo.png);
+        
+        background-image: /*linear-gradient(180deg, #00000049 0%, #0000008c 100%)*/ url(../assets/fondooo.png);
         background-position: cover;
         background-repeat: no-repeat;
         background-size: 100%;
-        max-width: 100%;
+        width: auto;
         height: auto;
     
         
