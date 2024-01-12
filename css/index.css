@@ -257,20 +257,35 @@ body {
 
     
     .knowledge__img{
-        max-width: 100%;
+       /* max-width: 100%;*/
+       width: auto;
         height: auto;
-        width: 600px;
-        display: flex;
+        
         align-items:end;
         border: 0;
         vertical-align: baseline;
     }
+
+
+    @media (max-width: 600px) {
+       .knowledge__img{
+        width: 100%;
+        margin-bottom: 70%;
+       }
+        
+    }
+
     
     .knowledge__paragraph{
         max-width: 100%;
         height: auto;
         line-height: 1.7;
         margin-top: 15px;
+    }
+
+
+    @media screen {
+        
     }
 
 
