@@ -257,10 +257,10 @@ body {
 
     
     .knowledge__img{
-       /* max-width: 100%;*/
-       width: auto;
+        max-width: 100%;
         height: auto;
-        
+        width: 600px;
+        display: flex;
         align-items:end;
         border: 0;
         vertical-align: baseline;
@@ -269,7 +269,7 @@ body {
 
     @media (max-width: 600px) {
        .knowledge__img{
-        width: 100%;
+        width: 150%;
         margin-bottom: 70%;
        }
         
