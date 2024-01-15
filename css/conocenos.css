@@ -55,6 +55,7 @@ body {
    }
 
    .carrusel {
+    
     position: relative;
     width: 100%;
     height: 400px;
@@ -65,7 +66,7 @@ body {
     display: flex;
     width: 300%;
     height: 100%;
-    animation: slide 12s infinite;
+    animation: alternate slide 12s infinite;
 }
 
 .carrusel__imagenes img {
@@ -88,6 +89,25 @@ body {
         transform: translateX(-99.99%);
     }
 }
+
+
+/* video */
+.video-container{
+    display: flex;
+    justify-content: center;
+}
+
+.title, .card-title{
+    font-family: fantasy;
+}
+
+
+
+
+/* Misión Visión*/
+
+
+
 
 
 
