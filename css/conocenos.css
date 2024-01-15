@@ -88,6 +88,9 @@ body {
     100% {
         transform: translateX(-99.99%);
     }
+    133% {
+        transform: translateX(133.33%);
+    }
 }
 
 

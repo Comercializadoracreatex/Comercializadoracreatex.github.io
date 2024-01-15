@@ -392,32 +392,44 @@ body {
 
 /* customers */
 
-#tituclientes{
-
-    text-align: center;
-
-}
-.clientes-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 16px;
-    padding: 35px;
-}
-
-.cliente {
-    text-align: center;
-    padding: 16px;
-    width: 100%;
-    max-width: 300px;
-}
-
-.cliente img {
-    width: 60%;
+.slider {
+    width: 75vw;
     height: auto;
-    object-fit: cover;
-    border-radius: 4px;
+    margin: auto;
+    overflow: hidden;
 }
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(200px * 14);
+    justify-content: center;
+}
+
+.slider .slide {
+    width: 200px;
+    margin: auto;
+}
+
+.slider .slide img {
+    width: 80%;
+    
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-200px * 8));
+        transform: translateX(calc(-200px * 8));
+    }
+}
+
+
+
 
 h3 {
     margin: 8px 0;
