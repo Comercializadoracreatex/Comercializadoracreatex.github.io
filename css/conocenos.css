@@ -97,17 +97,12 @@ body {
     justify-content: center;
 }
 
-.title, .card-title{
+.title, .card-title, .economiatitulo{
     font-family: fantasy;
 }
 
 
 /* Misión Visión Economìa*/
-
-.economia{
-
-}
-
 
 /*navbar*/
 
