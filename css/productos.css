@@ -8,18 +8,17 @@ body {
 .productos {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 .producto {
-    display: flex;
-    background-color: #f8f8f8;
-    width: 30%;
-    margin: 15px;
+    width: 200px;
+    text-align: center;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    text-align: center;
+    transition: 0.3s;
 }
 
 .producto img {
@@ -27,7 +26,14 @@ body {
     height: auto;
 }
 
-.precio {
-    color: #b12704;
-    font-weight: bold;
+@media (max-width: 768px) {
+    .producto {
+        width: 40%;
+    }
+}
+
+@media (max-width: 480px) {
+    .producto {
+        width: 90%;
+    }
 }
