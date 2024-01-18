@@ -95,10 +95,17 @@ body {
     justify-content: center;
 }
 
-.title, .card-title, .economiatitulo{
+.title, .card-title, .economiatitulo .modal-title{
     font-family: fantasy;
+    font-size: 400%;
 }
 
+@media screen and (max-width: 442px) {
+    .card-title {
+      font-size: 250%;
+      /* Estilos específicos para pantallas más pequeñas */
+    }
+}
 
 /* Misión Visión Economìa*/
 
