@@ -151,10 +151,6 @@ nav ul li a {
 
 
 
-
-
-
-
 /* boton de wsp*/
 .btn-wsp{
     position:fixed;
@@ -178,9 +174,9 @@ nav ul li a {
     .btn-wsp{
         max-width: 100%;
         height: auto;
-        width:63px;
-        height:63px;
-        line-height: 66px;
+        width:60px;
+        height:60px;
+        line-height: 54px;
 	}
 }
 
