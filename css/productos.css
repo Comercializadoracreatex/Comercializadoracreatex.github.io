@@ -115,17 +115,40 @@ nav ul li a {
 }
 
 
-.title, .card-title, .economiatitulo .modal-title{
-    font-family: fantasy;
-    font-size: auto;
+.title, .card-title, .modal-title{
+    
+    font-size: 300%;
+    padding: auto;
+    margin-top: 30px;
 }
 
-@media screen and (max-width: 442px) {
-    .card-title {
-      font-size: 300%;
+@media screen and (max-width: 430px) {
+   h1 .card-title {
+      font-size: auto;
       /* Estilos específicos para pantallas más pequeñas */
     }
 }
+
+.imagenmodal img:hover{
+
+    transform: scale(2.25);
+    transition: 300ms
+
+}
+
+.imagenmodal img{
+
+    width: 30%;
+
+}
+
+
+
+
+
+
+
+
 
 .card{
 margin: 1rem 0;
