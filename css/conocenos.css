@@ -54,6 +54,9 @@ body {
     }
    }
 
+
+/*++++++++++---------- Slide cabezera ----------++++++++*/
+
    .carrusel {
     
     position: relative;
@@ -100,11 +103,8 @@ body {
 }
 
 
-/* Misión Visión Economìa*/
 
 /*navbar*/
-
-
 header {
     
     background-color: #ffffff;
@@ -148,15 +148,12 @@ nav ul li a {
     height: auto;
 }
 
-/*********************************************************************************/
-
-
+/********** Oportunidad 2.0 ***********/
 .oportunidad123{
     padding: auto;
     margin-left: 0%;
 
 }
-
 
 /* boton de wsp*/
 .btn-wsp{
@@ -188,7 +185,7 @@ nav ul li a {
 }
 
 
- /*footer*/
+ /*++++++++++++++++++ footer ++++++++++++++++*/
 
  .site-footer
  {

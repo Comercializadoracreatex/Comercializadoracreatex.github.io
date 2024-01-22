@@ -38,13 +38,9 @@ body {
 
 
 /* Intento de responsive */
-
-
+/* nav*/
 
 @media screen and (max-width: 767px) {
-
-
-
 
 
     header {
@@ -212,6 +208,7 @@ body {
 
     }
     
+    /* Botón ver más */
     .vermas{
         max-width: 100%;
         height: auto;
@@ -225,7 +222,7 @@ body {
         align-items: center;
         margin-bottom: 10px;
     }
-/* knowledge //////////////////////////////////////////////////////// */
+/* knowledge Conocenos*/
     .knowledge{
         max-width: auto;
         height: auto;
@@ -290,7 +287,7 @@ body {
     }
 
 
-/* numero, contacto //////////////////////////////////////////////////////// */
+/* numero, Contacto  */
 
 
 .numero{
@@ -327,7 +324,7 @@ body {
 
 }
 
-/*conocenos ///////////////////////////////////////////// */
+/*conocenos  */
 
 .conocenosboton{
     max-width: 100%;
@@ -345,7 +342,7 @@ body {
 
 
 
-/* slidee************************************************** */
+/* Lineas operativas slide */
 .slider-frame {
     max-width: 100%;
     height: auto;
@@ -388,11 +385,10 @@ body {
     100% {margin-left: -400%;}
 	125% {margin-left: -400%;}
 }
-/* Productos slide*/
 
 
 
-/* customers */
+/* customers slide*/
 
 .slider {
     width: 75vw;
@@ -466,7 +462,7 @@ p {
         text-align: center;
 }
 
-/*botón wasa*/
+/*botón whatsapp*/
 
 
 .btn-wsp{
@@ -503,7 +499,7 @@ p {
 
 
 
-  /*footer*/
+  /*******************************footer*****************************/
 
   .site-footer
   {

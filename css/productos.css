@@ -3,9 +3,7 @@ body {
     font-family: var(--primary-font);
     margin-bottom: 4rem;
     
-
 }
-
 
 /*navbar */
 
@@ -145,17 +143,13 @@ nav ul li a {
 
 
 
-
-
-
-
-
-
 .card{
 margin: 1rem 0;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 padding: 1.5rem;
 }
+
+/*  Botón whatsapp  */
 
 .btn-wsp{
     position:fixed;
