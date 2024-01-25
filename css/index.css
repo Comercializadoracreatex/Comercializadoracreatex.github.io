@@ -134,6 +134,18 @@ body {
     height: auto;
 }
 
+@font-face {
+  font-family: "Mi-Fuente-Fantasy";
+  src:
+    local("Mi-Fuente-Fantasy"),
+    url("Mi-Fuente-Fantasy.otf") format("opentype"),
+    url("Mi-Fuente-Fantasy.woff") format("woff");
+}
+
+.title, .card-title, .economiatitulo .modal-title{
+  font-family: "Mi-Fuente-Fantasy", fantasy;
+}
+
 
     body {
         

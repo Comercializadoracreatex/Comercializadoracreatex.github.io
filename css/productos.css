@@ -118,7 +118,7 @@ nav ul li a {
     font-size: 300%;
     padding: auto;
     margin-top: 30px;
-    font-family: fantasy;
+    font-family: "fantasy", Arial, sans-serif;
 }
 
 @media screen and (max-width: 430px) {
@@ -166,6 +166,7 @@ padding: 1.5rem;
     z-index:100;
     transition: all 300ms ease;
 }
+
 .btn-wsp:hover{
     background: #f8fffb56;
 }
